@@ -27,7 +27,8 @@ function InstallPackages {
 }
 
 function SetupWindows {
-  Set-ExecutionPolicy Bypass -Scope User -Force
   InstallChoco
   InstallPackages
 }
+
+SetupWindows
