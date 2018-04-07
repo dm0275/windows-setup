@@ -21,7 +21,7 @@ function InstallChoco {
 function InstallPackages {
   if (choco -v -ne $null) {
     foreach ($program in $programs) {
-      choco install $program
+      choco install $program -y
     }
   }
 }
