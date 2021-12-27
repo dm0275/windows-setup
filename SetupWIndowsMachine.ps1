@@ -2,16 +2,14 @@
 
 $programs = @(
   "chocolatey-core.extension",
-  "googlechrome",
   "adobereader",
   "jre8",
   "jdk8",
-  "notepadplusplus",
   "winrar",
   "vlc",
   "git",
   "python",
-  "atom"
+  "vscode"
 )
 
 function InstallChoco {
